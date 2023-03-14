@@ -1,0 +1,689 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.19f1 (c9714fde33b6) revision 13201743'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'en' Physical Memory: 16309 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Unity Hub\Editor\2021.3.19f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Outer Space/OuterSpace2D
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+49358
+Successfully changed project path to: D:/Outer Space/OuterSpace2D
+D:/Outer Space/OuterSpace2D
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [14832] Host "[IP] 158.129.23.84 [Port] 0 [Flags] 2 [Guid] 3144107329 [EditorId] 3144107329 [Version] 1048832 [Id] WindowsEditor(7,PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [14832] Host "[IP] 158.129.23.84 [Port] 0 [Flags] 2 [Guid] 3144107329 [EditorId] 3144107329 [Version] 1048832 [Id] WindowsEditor(7,PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 81.63 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.19f1 (c9714fde33b6)
+[Subsystems] Discovering subsystems at path D:/Unity Hub/Editor/2021.3.19f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Outer Space/OuterSpace2D/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Ti (ID=0x2489)
+    Vendor:   NVIDIA
+    VRAM:     8038 MB
+    Driver:   31.0.15.3118
+Initialize mono
+Mono path[0] = 'D:/Unity Hub/Editor/2021.3.19f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity Hub/Editor/2021.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity Hub/Editor/2021.3.19f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56936
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity Hub/Editor/2021.3.19f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Unity Hub/Editor/2021.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001449 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 98.93 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.480 seconds
+Domain Reload Profiling:
+	ReloadAssembly (481ms)
+		BeginReloadAssembly (47ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (365ms)
+			LoadAssemblies (46ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (72ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (18ms)
+			SetupLoadedEditorAssemblies (241ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (99ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (102ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002665 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Outer Space\OuterSpace2D\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Outer Space\OuterSpace2D\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 85.68 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.874 seconds
+Domain Reload Profiling:
+	ReloadAssembly (875ms)
+		BeginReloadAssembly (72ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (14ms)
+		EndReloadAssembly (723ms)
+			LoadAssemblies (53ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (181ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (409ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (86ms)
+				BeforeProcessingInitializeOnLoad (78ms)
+				ProcessInitializeOnLoadAttributes (175ms)
+				ProcessInitializeOnLoadMethodAttributes (66ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.99 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5211 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 55 unused Assets / (1.3 MB). Loaded Objects now: 5651.
+Memory consumption went from 206.5 MB to 205.2 MB.
+Total: 3.707900 ms (FindLiveObjects: 0.363800 ms CreateObjectMapping: 0.324100 ms MarkObjects: 2.607300 ms  DeleteObjects: 0.411800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 939.536627 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut
+  artifactKey: Guid(5cfb454272ef35f49b217ed92077569a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut using Guid(5cfb454272ef35f49b217ed92077569a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97551992fe891b4bfd1e053ce09ce448') in 0.010944 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Demo/DemoScene.unity
+  artifactKey: Guid(bb2e0b5f54a5462db6400cd226fbcad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Demo/DemoScene.unity using Guid(bb2e0b5f54a5462db6400cd226fbcad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08e7eb730bb4f4de85239abbeab4ff35') in 0.003356 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002673 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Outer Space\OuterSpace2D\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Outer Space\OuterSpace2D\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.789 seconds
+Domain Reload Profiling:
+	ReloadAssembly (789ms)
+		BeginReloadAssembly (97ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (625ms)
+			LoadAssemblies (59ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (185ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (307ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (60ms)
+				ProcessInitializeOnLoadAttributes (171ms)
+				ProcessInitializeOnLoadMethodAttributes (64ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.81 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5094 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 42 unused Assets / (1.2 MB). Loaded Objects now: 5654.
+Memory consumption went from 198.5 MB to 197.3 MB.
+Total: 3.742700 ms (FindLiveObjects: 0.322100 ms CreateObjectMapping: 0.191300 ms MarkObjects: 2.769600 ms  DeleteObjects: 0.459200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002672 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Outer Space\OuterSpace2D\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Outer Space\OuterSpace2D\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.790 seconds
+Domain Reload Profiling:
+	ReloadAssembly (790ms)
+		BeginReloadAssembly (91ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (633ms)
+			LoadAssemblies (49ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (183ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (317ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (69ms)
+				ProcessInitializeOnLoadAttributes (170ms)
+				ProcessInitializeOnLoadMethodAttributes (66ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.79 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5094 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 42 unused Assets / (1.2 MB). Loaded Objects now: 5657.
+Memory consumption went from 198.6 MB to 197.3 MB.
+Total: 3.474900 ms (FindLiveObjects: 0.303000 ms CreateObjectMapping: 0.230200 ms MarkObjects: 2.515200 ms  DeleteObjects: 0.425400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 69.611565 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Prefabs/Desert_Palette.prefab
+  artifactKey: Guid(213c94046e97e9343a29b938a80de6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Prefabs/Desert_Palette.prefab using Guid(213c94046e97e9343a29b938a80de6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ec2813e981e7e3f6adb305282fa65fd') in 0.199245 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.108540 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/character_bow.png
+  artifactKey: Guid(410a682b748d49d5b553923210776e64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/character_bow.png using Guid(410a682b748d49d5b553923210776e64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35bcf2b052eedba9d2a9d99be7723e89') in 0.052910 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/world_bomb_explosion.png
+  artifactKey: Guid(9f30f35184729d64e9778f3a861945dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/world_bomb_explosion.png using Guid(9f30f35184729d64e9778f3a861945dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6a4d2872e6c05e437db3d6ee9276608') in 0.074605 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/world_bomb_ground.png
+  artifactKey: Guid(9c6314050d870a4409074e27c5e79132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/world_bomb_ground.png using Guid(9c6314050d870a4409074e27c5e79132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2ee581f58fd8224c779026070dceb62') in 0.057649 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/character_vanish.png
+  artifactKey: Guid(37db6fd26ee44919bffee8a330bd9f5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/character_vanish.png using Guid(37db6fd26ee44919bffee8a330bd9f5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '406f940f61c6814469d614e0eee95a2e') in 0.169739 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/world_muzzleflash.png
+  artifactKey: Guid(9cfbb362323bfad4eb88e48d04d8a2a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/world_muzzleflash.png using Guid(9cfbb362323bfad4eb88e48d04d8a2a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c43de6f1f9946222de1dbbf7a4de5766') in 0.014281 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/character_sword.png
+  artifactKey: Guid(15eb07192dee43dcb169478da3b487d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/character_sword.png using Guid(15eb07192dee43dcb169478da3b487d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbb36ae9fb3f12756fe290768069cb27') in 0.263450 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/world_arrow_basic.png
+  artifactKey: Guid(32fc46fa3f0e8b349b777fc008066ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/world_arrow_basic.png using Guid(32fc46fa3f0e8b349b777fc008066ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b67100df5d5a4206bd65c17b408fe67d') in 0.009396 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/character_hit2.png
+  artifactKey: Guid(aaa807840a4943e79b5aa0802ee18d99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/character_hit2.png using Guid(aaa807840a4943e79b5aa0802ee18d99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e319a99a1cd9316990df1a7c2450fa04') in 0.175195 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/character_gun.png
+  artifactKey: Guid(7adb3002b143465ca80d83e1b71af788) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/character_gun.png using Guid(7adb3002b143465ca80d83e1b71af788) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '359921a7976bc2e3e7f5923a1cf0bc24') in 0.024237 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/character_duck.png
+  artifactKey: Guid(b9998a0d16f84a57a88683adbfce9aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/character_duck.png using Guid(b9998a0d16f84a57a88683adbfce9aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e59beccd4a38b54af6c12eefeb6465a5') in 0.296986 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/character_run.png
+  artifactKey: Guid(acb8cab598694f619dd44693cb68fb4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/character_run.png using Guid(acb8cab598694f619dd44693cb68fb4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd18ea828e9453503e56f4292db2f6a60') in 0.135477 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/character_sycthe.png
+  artifactKey: Guid(2cd92e9f32354f3c924b9ba0617cfbd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/character_sycthe.png using Guid(2cd92e9f32354f3c924b9ba0617cfbd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01a191ffc4276082b159e308a2abcdb5') in 0.311090 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/world_bomb_carry.png
+  artifactKey: Guid(a3ebf609d64354b47bd06cdd94098ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/world_bomb_carry.png using Guid(a3ebf609d64354b47bd06cdd94098ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77ccb5f038c6cfa1e65a75ef8bd0b152') in 0.440444 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/weapon_rifle.png
+  artifactKey: Guid(23d536d6083344698e17aa8fc049b99f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/weapon_rifle.png using Guid(23d536d6083344698e17aa8fc049b99f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79a82a0408c7531a3062d42b6944a06d') in 0.027675 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/character_rifle.png
+  artifactKey: Guid(123d54a09b5e49a7b77ca17b4009834c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/character_rifle.png using Guid(123d54a09b5e49a7b77ca17b4009834c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc135cff5873c8245b643b963f18516b') in 0.023487 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/world_wood_barrier.png
+  artifactKey: Guid(c94c2e2b9bf12ca4680516aeed0708df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/world_wood_barrier.png using Guid(c94c2e2b9bf12ca4680516aeed0708df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33e6e0bbb6e58cc2279e2af210249f79') in 0.082249 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Tilemap/desert_25.asset
+  artifactKey: Guid(c0e43b90600e2704e818dbcd2af633db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Tilemap/desert_25.asset using Guid(c0e43b90600e2704e818dbcd2af633db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb7b2bb5de352fac30eede9b5dde5443') in 0.010330 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Tilemap/desert_30.asset
+  artifactKey: Guid(fb9d26e2f9212fd4cb7485bd55e08f54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Tilemap/desert_30.asset using Guid(fb9d26e2f9212fd4cb7485bd55e08f54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd51b1e8c13490aeb23c90b537af201fb') in 0.008086 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Tilemap/desert_19.asset
+  artifactKey: Guid(2656f8118be3e944fb633a5442d1ab3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Tilemap/desert_19.asset using Guid(2656f8118be3e944fb633a5442d1ab3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee558b67253f321d7609f2ba738fc4d4') in 0.009419 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Tilemap/desert_06.asset
+  artifactKey: Guid(d674cc4e6cf1d69468b2454c4e1d951d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Tilemap/desert_06.asset using Guid(d674cc4e6cf1d69468b2454c4e1d951d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '956e633b3ea89a52f00d43b159ea74ff') in 0.007521 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Tilemap/desert_23.asset
+  artifactKey: Guid(f7e2aec9af6c54b479d849d38785c21f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Tilemap/desert_23.asset using Guid(f7e2aec9af6c54b479d849d38785c21f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2500855e8259cbdc51d37e95dd03cd41') in 0.008142 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Tilemap/desert_20.asset
+  artifactKey: Guid(66d4130eb766dea4eafc312e45e5aa0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Tilemap/desert_20.asset using Guid(66d4130eb766dea4eafc312e45e5aa0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05bd510a098035e3db7c87c6073885b5') in 0.007759 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Tilemap/desert_21.asset
+  artifactKey: Guid(f06888bccba270c48a448415b2017dee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Tilemap/desert_21.asset using Guid(f06888bccba270c48a448415b2017dee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d5269239613a9abce5ac61baa3de811') in 0.008297 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Tilemap/desert_09.asset
+  artifactKey: Guid(4c92a32590e14b34e92105d496beebe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Tilemap/desert_09.asset using Guid(4c92a32590e14b34e92105d496beebe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7d4d2dbf4ccfeaae2a41cf0263ee9cf') in 0.009491 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Tilemap/desert_29.asset
+  artifactKey: Guid(8819315977ab19f41b4d14c81df967de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Tilemap/desert_29.asset using Guid(8819315977ab19f41b4d14c81df967de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '800dbcaa5a2a23e3b7dd22d34a9737bf') in 0.007788 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Tilemap/desert_16.asset
+  artifactKey: Guid(730f558e211333045acb27c44feef72b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Tilemap/desert_16.asset using Guid(730f558e211333045acb27c44feef72b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b33f726d5af389d1efb33ebef7f1b10') in 0.008091 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Tilemap/desert_35.asset
+  artifactKey: Guid(5fc7b737d2b112a44af89c1b02579fa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Tilemap/desert_35.asset using Guid(5fc7b737d2b112a44af89c1b02579fa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fae35a86eb2a08bbc1490e6783d3ef2e') in 0.008392 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/world_bomb_hold.png
+  artifactKey: Guid(09c6bf1cbce9be746b148f6019fd6750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/world_bomb_hold.png using Guid(09c6bf1cbce9be746b148f6019fd6750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddde28d15ba74c4241677e6fd6282166') in 0.457066 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/weapon_sword.png
+  artifactKey: Guid(a1925e7d73214f63a8ddcce6bea40954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/weapon_sword.png using Guid(a1925e7d73214f63a8ddcce6bea40954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58824a6fa2341665fbd097cd31bb3e72') in 0.286960 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Tilemap/desert_28.asset
+  artifactKey: Guid(2a619078e5493cf4797912a485d76aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Tilemap/desert_28.asset using Guid(2a619078e5493cf4797912a485d76aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45e04dcb7dfa371f09d18edc7867a1e9') in 0.009315 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Tilemap/desert_31.asset
+  artifactKey: Guid(329efe4d5bff4cb49b8cc8a77976db76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Tilemap/desert_31.asset using Guid(329efe4d5bff4cb49b8cc8a77976db76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4344ad849428454d2fcb3439b74a297') in 0.008596 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Tilemap/desert_17.asset
+  artifactKey: Guid(04d0d8db9a3dce44a9c88aac59115c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Tilemap/desert_17.asset using Guid(04d0d8db9a3dce44a9c88aac59115c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60024116654d9407b285a501708ba132') in 0.007953 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Tilemap/desert_27.asset
+  artifactKey: Guid(1dfdb6795e3689a478917078973e3aff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Tilemap/desert_27.asset using Guid(1dfdb6795e3689a478917078973e3aff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8529f247a61006f329323cb7c21f40a6') in 0.009206 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Tilemap/desert_18.asset
+  artifactKey: Guid(d3d4f0859a773104489d06294c8677f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Tilemap/desert_18.asset using Guid(d3d4f0859a773104489d06294c8677f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba33aaf146ec9f3d01c92bc03031ec00') in 0.009482 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Tilemap/desert_34.asset
+  artifactKey: Guid(3fe31b47084016044818c1ad90b6b05d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Tilemap/desert_34.asset using Guid(3fe31b47084016044818c1ad90b6b05d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26b76aaf064f234a6e54ac995cf6ec6b') in 0.008129 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Tilemap/desert_22.asset
+  artifactKey: Guid(d06b099efaaaa07479d647a145018122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Tilemap/desert_22.asset using Guid(d06b099efaaaa07479d647a145018122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe0cc17a89b62eae2acd57ec4b4dcbee') in 0.008842 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Tilemap/desert_10.asset
+  artifactKey: Guid(526da66262ca10e4b96fe17361a67650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Tilemap/desert_10.asset using Guid(526da66262ca10e4b96fe17361a67650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38eaf6db5af40f50326f3a25426fa079') in 0.009376 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Tilemap/desert_11.asset
+  artifactKey: Guid(be068fdb10d6181488b89047081cf1e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Tilemap/desert_11.asset using Guid(be068fdb10d6181488b89047081cf1e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9ed72e7e7d8d350bc0c77864ab30802') in 0.008808 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Tilemap/desert_32.asset
+  artifactKey: Guid(349a18151e4857e4a92867ab0a52822e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Tilemap/desert_32.asset using Guid(349a18151e4857e4a92867ab0a52822e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cbab5c53f810e5d1d46163ccc19b1f5') in 0.009259 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Tilemap/desert_00.asset
+  artifactKey: Guid(827cd0ab7530f2e42b04c8f656fd1435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Tilemap/desert_00.asset using Guid(827cd0ab7530f2e42b04c8f656fd1435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49b2a98c9ad8b80aa9b1220eced1a7b8') in 0.010195 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Tilemap/desert_07.asset
+  artifactKey: Guid(9724e3c62e2ff13428bd8936d151c093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Tilemap/desert_07.asset using Guid(9724e3c62e2ff13428bd8936d151c093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ae2f9f637f50db8182bc7c9908e82f0') in 0.009229 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Tilemap/desert_26.asset
+  artifactKey: Guid(0d3a5e1f59cd6b44980d87ff9e9a4a03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Tilemap/desert_26.asset using Guid(0d3a5e1f59cd6b44980d87ff9e9a4a03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e6096ccb8d3cd8bb9e330cce34b849b') in 0.009774 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Tilemap/desert_33.asset
+  artifactKey: Guid(b734447983ee1764fb211e7294bb25f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Tilemap/desert_33.asset using Guid(b734447983ee1764fb211e7294bb25f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2e07e8f2872e16347c90af7106e491a') in 0.008871 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/character_crawl.png
+  artifactKey: Guid(43eb704c8d3f4f02b188c5988c58b4fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/character_crawl.png using Guid(43eb704c8d3f4f02b188c5988c58b4fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a096584f839460e48f6918001428ca5') in 0.276229 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.041704 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Tilemap/desert_37.asset
+  artifactKey: Guid(9e47530f0a14a4547bf66d612f8834ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Tilemap/desert_37.asset using Guid(9e47530f0a14a4547bf66d612f8834ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8213f24def268aaa093fd2f25042d81') in 0.009300 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Tilemap/desert_46.asset
+  artifactKey: Guid(a6687f28c30ed2a449e6d8eebf2f6786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Tilemap/desert_46.asset using Guid(a6687f28c30ed2a449e6d8eebf2f6786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0defbada5504358f29549525ddc3ed9') in 0.009696 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Tilemap/desert_47.asset
+  artifactKey: Guid(f842c68fcd91aa0458a7b5ff8125fc4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Tilemap/desert_47.asset using Guid(f842c68fcd91aa0458a7b5ff8125fc4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1204e82cec4dd17ccd6248076a89bee1') in 0.008316 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Tilemap/desert_43.asset
+  artifactKey: Guid(5b7614066448b474f9a2d1327edb460f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Tilemap/desert_43.asset using Guid(5b7614066448b474f9a2d1327edb460f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '957b28877eb57faa81511e48b78f7650') in 0.008817 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Tilemap/desert_41.asset
+  artifactKey: Guid(69416d16c05d1084f9dddfe18d38fb80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Tilemap/desert_41.asset using Guid(69416d16c05d1084f9dddfe18d38fb80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1175d44aa865ada8abc15db649e35912') in 0.010273 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Tilemap/desert_49.asset
+  artifactKey: Guid(b3262bdc4df9b694098c03715b590aac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Tilemap/desert_49.asset using Guid(b3262bdc4df9b694098c03715b590aac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79dcd04f45ce6d195f55f04c4c4aa986') in 0.008928 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Tilemap/desert_57.asset
+  artifactKey: Guid(76111e51d7df53c4e899edc74dad8f0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Tilemap/desert_57.asset using Guid(76111e51d7df53c4e899edc74dad8f0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba6dd4b19125227df3539ea0976e8707') in 0.010683 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Tilemap/desert_58.asset
+  artifactKey: Guid(cc2ef6620913fab42b416b5aaebe69dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Tilemap/desert_58.asset using Guid(cc2ef6620913fab42b416b5aaebe69dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4738573d4f2f785f497938cae2415d5') in 0.009029 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Tilemap/desert_56.asset
+  artifactKey: Guid(52e258f617c157449b9a1680b8100b6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Tilemap/desert_56.asset using Guid(52e258f617c157449b9a1680b8100b6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb3a82e242f84f7006e5b1db33a0351a') in 0.009149 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.113085 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Tilemap/desert_62.asset
+  artifactKey: Guid(c37d5e9a51a7630488e44ee5325f2e02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Tilemap/desert_62.asset using Guid(c37d5e9a51a7630488e44ee5325f2e02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba6689047630275aeee9a249a9bd5e18') in 0.009255 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Tilemap/desert_69.asset
+  artifactKey: Guid(d96cf9bc5abe9ed42861e2b3c0563209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Tilemap/desert_69.asset using Guid(d96cf9bc5abe9ed42861e2b3c0563209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5599e732c301477b9c0567ddeee5e1a2') in 0.010789 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Tilemap/desert_66.asset
+  artifactKey: Guid(b3f0ce806be25b04e8009c81ae1bd725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Tilemap/desert_66.asset using Guid(b3f0ce806be25b04e8009c81ae1bd725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f878d9e5b5b54be0d8a2b21346bac48d') in 0.008816 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Tilemap/desert_67.asset
+  artifactKey: Guid(ebe8e3e5101f84b4d950313d62f7ccff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Tilemap/desert_67.asset using Guid(ebe8e3e5101f84b4d950313d62f7ccff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6a76dc1e173bdb8d9387155b74b6310') in 0.009909 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.017475 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Tilemap/desert_74.asset
+  artifactKey: Guid(6c5bce8d4dd3f6442915d9871afde858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Tilemap/desert_74.asset using Guid(6c5bce8d4dd3f6442915d9871afde858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd420db8b31e10b4094c964efb2c33b78') in 0.008484 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Tilemap/desert_79.asset
+  artifactKey: Guid(2057a70140876964884caabd774289f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Tilemap/desert_79.asset using Guid(2057a70140876964884caabd774289f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c9d7eac3c4d140cc7d9a0db0fb26754') in 0.009163 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Tilemap/desert_77.asset
+  artifactKey: Guid(3faec1406ab506f498024638196716de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Tilemap/desert_77.asset using Guid(3faec1406ab506f498024638196716de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a62c18adc5b1b6425a84d174cf260b36') in 0.008754 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Tilemap/desert_78.asset
+  artifactKey: Guid(c7181a63ddac0fc41a20d6b6e502fc3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Tilemap/desert_78.asset using Guid(c7181a63ddac0fc41a20d6b6e502fc3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0aaeb715b1b073ef34476186f76b2b1') in 0.009352 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.027720 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Tilemap/desert_86.asset
+  artifactKey: Guid(6e5a01c511876124da865685b3e5548e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Tilemap/desert_86.asset using Guid(6e5a01c511876124da865685b3e5548e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6c02c05242a01d9b1fd8077072d30ac') in 0.010697 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Tilemap/desert_93.asset
+  artifactKey: Guid(4afa0e8d9693dbc48843eaa51948a8dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Tilemap/desert_93.asset using Guid(4afa0e8d9693dbc48843eaa51948a8dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3f55e3b035a558bd91dcc801cc9c2b4') in 0.009776 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Tilemap/desert_88.asset
+  artifactKey: Guid(38273a718979db44fbd59a8fb39ca535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Tilemap/desert_88.asset using Guid(38273a718979db44fbd59a8fb39ca535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4ba61895c9ac05c78245044a923a382') in 0.009092 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
